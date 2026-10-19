@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Star App</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  
+  <!-- CDN Animate.css - SOLUCIONA EL ERROR MIME -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <h1>✨ Catálogo de Estrellas</h1>
+
+  <div class="card">
+    <h3>Registrar nueva Estrella</h3>
+    <input type="text" id="star-name" placeholder="Nombre de la estrella...">
+    <button class="btn" id="btn-save">Guardar / Sincronizar</button>
+  </div>
+
+  <div class="card">
+    <h3>Notificaciones</h3>
+    <button class="btn" id="btn-notify">Activar Notificaciones</button>
+  </div>
+
+  <div class="card" id="star-list">
+    <h3>Estrellas Registradas</h3>
+    <ul id="stars">
+      <li>Sol - Tipo G2V</li>
+      <li>Sirio - Tipo A1V</li>
+      <li>Betelgeuse - Supergigante Roja</li>
+    </ul>
+  </div>
+
+  <!-- CDN jQuery - Más simple que el archivo local -->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

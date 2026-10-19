@@ -1,0 +1,20 @@
+{
+  "name": "Star App - Catálogo de Estrellas",
+  "short_name": "StarApp",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#0d1b2a",
+  "theme_color": "#1b263b",
+  "icons": [
+    {
+      "src": "img/icons/icon2-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "img/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
